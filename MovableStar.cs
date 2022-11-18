@@ -9,8 +9,6 @@ namespace ConsoleStars
 
         public MovableStar(Random random)
         {
-            _x = random.Next(1, Console.WindowWidth - 1);
-            _y = random.Next(1, Console.WindowHeight - 1);
             _speedX = random.Next(-1, 2);
             _speedY = random.Next(-1, 2);
         }
